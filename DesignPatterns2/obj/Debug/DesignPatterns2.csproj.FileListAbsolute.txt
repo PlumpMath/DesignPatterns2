@@ -1,0 +1,6 @@
+c:\users\naiade.lima\documents\visual studio 2012\Projects\DesignPatterns2\DesignPatterns2\bin\Debug\DesignPatterns2.exe.config
+c:\users\naiade.lima\documents\visual studio 2012\Projects\DesignPatterns2\DesignPatterns2\bin\Debug\DesignPatterns2.exe
+c:\users\naiade.lima\documents\visual studio 2012\Projects\DesignPatterns2\DesignPatterns2\bin\Debug\DesignPatterns2.pdb
+c:\users\naiade.lima\documents\visual studio 2012\Projects\DesignPatterns2\DesignPatterns2\obj\Debug\DesignPatterns2.csprojResolveAssemblyReference.cache
+c:\users\naiade.lima\documents\visual studio 2012\Projects\DesignPatterns2\DesignPatterns2\obj\Debug\DesignPatterns2.exe
+c:\users\naiade.lima\documents\visual studio 2012\Projects\DesignPatterns2\DesignPatterns2\obj\Debug\DesignPatterns2.pdb

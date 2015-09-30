@@ -8,6 +8,8 @@ using System.Threading.Tasks;
 using DesignPatterns2.Cap2;
 using DesignPatterns2.Cap3;
 using DesignPatterns2.Cap4;
+using DesignPatterns2.Cap5;
+using DesignPatterns2.Cap6;
 
 namespace DesignPatterns2
 {
@@ -70,13 +72,35 @@ namespace DesignPatterns2
 
             /********************CAP 4 - DSLs e o Interpreter****************/
 
-            IExpressao esquerda = new Subtracao(new Numero(10), new Numero(5));
-            IExpressao direita = new Soma(new Numero(2), new Numero(10));
+            //IExpressao esquerda = new Subtracao(new Numero(10), new Numero(5));
+            //IExpressao direita = new Soma(new Numero(2), new Numero(10));
 
-            IExpressao conta = new Soma(esquerda, direita);
+            //IExpressao conta = new Soma(esquerda, direita);
 
-            int resultado = conta.Avalia();
-            Console.WriteLine(resultado);
+            //int resultado = conta.Avalia();
+            //Console.WriteLine(resultado);
+
+            /********************CAP 5 - Estruturas de dados e o Visitor****************/
+
+            ////((10 - 5) + (2+10))
+            //IExpressao esquerda = new Subtracao(new Numero(10), new Numero(5));
+            //IExpressao direita = new Soma(new Numero(2), new Numero(10));
+            //IExpressao conta = new Soma(esquerda, direita);
+
+            //int resultado = conta.Avalia();
+            //Console.WriteLine(resultado);
+
+            //Impressora impressora = new Impressora();
+            //conta.AceitaUmaImpressoa(impressora);
+            //Console.ReadKey();
+
+            /***********************CAP 6 -  Bridges***********************************/
+            MensagemPorEmail mensagem = new MensagemPorEmail("naiade");
+            IEnviador enviador = new EnviaPorEmail();
+            mensagem.Enviador = enviador;
+            mensagem.Envia();
+            Console.ReadKey();
+
         }
     }
 }
